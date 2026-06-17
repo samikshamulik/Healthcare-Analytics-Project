@@ -1,7 +1,7 @@
 # Healthcare Patient & Revenue Analysis
 
 An analytics project on patient admission and billing data across 5 hospitals for the year 2023.
-Built using Python, MySQL, and Power BI.
+Built using Python, MySQL, and Tableau.
 
 ---
 
@@ -52,7 +52,7 @@ Built using Python, MySQL, and Power BI.
 
 - **Python** — Pandas, NumPy, Matplotlib, Seaborn
 - **MySQL** — data storage and SQL queries
-- **Power BI** — interactive dashboard
+- **Tableau Public** — interactive dashboard
 
 ---
 
@@ -67,7 +67,7 @@ Healthcare-Analytics-Project/
 ├── notebook/
 │   └── healthcare_analysis.py
 ├── dashboard/
-│   └── Healthcare_Dashboard.pbix    ← add after building in Power BI
+│   └── Healthcare_Dashboard.twbx    ← add after publishing from Tableau Public
 ├── screenshots/
 │   ├── chart1_revenue_by_condition.png
 │   ├── chart2_revenue_by_hospital.png
@@ -96,10 +96,11 @@ python notebook/healthcare_analysis.py
 3. Import `data/healthcare_data.csv` using Table Data Import Wizard
 4. Run the remaining queries
 
-**Power BI:**
-- Open Power BI Desktop
-- Get Data → Text/CSV → select `data/healthcare_data.csv`
-- Build charts using the fields pane
+**Tableau:**
+- Download Tableau Public (free): https://public.tableau.com/en-us/s/download
+- Connect → Text File → select `data/healthcare_data.csv`
+- Build charts using the drag-and-drop interface
+- Publish to Tableau Public to get a shareable link
 
 ---
 
