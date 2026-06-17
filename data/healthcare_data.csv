@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Blood_Type,Medical_Condition,Hospital,Insurance_Provider,Admission_Type,Admission_Date,Discharge_Date,Stay_Days,Billing_Amount
+P0001,57,Male,B-,Diabetes,Sunrise Medical Institute,Star Health,Emergency,2023-02-22,2023-03-02,8,7444.01
+P0002,47,Male,A+,Kidney Disease,Green Valley Hospital,Blue Cross,Emergency,2023-04-22,2023-04-29,7,11569.62
+P0003,59,Male,AB+,Kidney Disease,Apollo Wellness Center,Star Health,Elective,2023-10-29,2023-11-06,8,15522.6
+P0004,72,Male,O-,Hypertension,Green Valley Hospital,United Health,Emergency,2023-04-21,2023-04-25,4,2959.95
+P0005,46,Female,O-,Diabetes,Sunrise Medical Institute,Cigna,Elective,2023-01-23,2023-01-31,8,5756.55
+P0006,46,Male,O+,Asthma,City General Hospital,Cigna,Elective,2023-10-23,2023-10-25,2,3966.0
+P0007,73,Male,A-,Hypertension,Sunrise Medical Institute,Star Health,Emergency,2023-07-14,2023-07-18,4,4540.35
+P0008,61,Female,O-,Hypertension,Sunrise Medical Institute,Star Health,Urgent,2023-05-17,2023-05-19,2,5241.09
+P0009,42,Male,B+,Kidney Disease,Apollo Wellness Center,Aetna,Elective,2023-05-19,2023-05-31,12,7855.0
+P0010,58,Female,A+,Diabetes,Apollo Wellness Center,United Health,Elective,2023-05-18,2023-05-21,3,4265.9
+P0011,43,Female,AB+,Hypertension,Green Valley Hospital,Aetna,Emergency,2023-05-16,2023-05-19,3,3609.82
+P0012,43,Female,AB+,Kidney Disease,Green Valley Hospital,United Health,Emergency,2023-03-12,2023-03-24,12,11415.71
+P0013,53,Male,B+,Diabetes,Apollo Wellness Center,Aetna,Urgent,2023-02-02,2023-02-08,6,5289.72
+P0014,21,Female,A+,Kidney Disease,Sunrise Medical Institute,Blue Cross,Urgent,2023-10-02,2023-10-10,8,14991.78
+P0015,24,Female,AB+,Diabetes,Sunrise Medical Institute,Star Health,Elective,2023-01-02,2023-01-10,8,8255.12
+P0016,41,Female,A-,Kidney Disease,Apollo Wellness Center,United Health,Urgent,2023-09-17,2023-09-24,7,6986.91
+P0017,34,Male,A+,Kidney Disease,Metro Health Clinic,Cigna,Elective,2023-09-08,2023-09-12,4,6454.28
+P0018,54,Female,A+,Heart Disease,Apollo Wellness Center,Star Health,Urgent,2023-02-10,2023-02-16,6,20442.43
+P0019,36,Male,B+,Kidney Disease,Apollo Wellness Center,Aetna,Urgent,2023-03-26,2023-04-03,8,11859.76
+P0020,28,Female,B-,Hypertension,Metro Health Clinic,United Health,Elective,2023-12-10,2023-12-14,4,4471.45
+P0021,71,Female,B-,Diabetes,Apollo Wellness Center,Blue Cross,Elective,2023-01-11,2023-01-18,7,6323.53
+P0022,46,Male,A+,Diabetes,City General Hospital,Star Health,Emergency,2023-01-17,2023-01-22,5,3425.14
+P0023,51,Male,B-,Heart Disease,Green Valley Hospital,Cigna,Emergency,2023-10-20,2023-11-03,14,16035.41
+P0024,28,Female,A-,Asthma,Apollo Wellness Center,Blue Cross,Urgent,2023-08-09,2023-08-12,3,2982.53
+P0025,41,Female,A+,Diabetes,City General Hospital,Aetna,Urgent,2023-06-23,2023-06-26,3,4491.94
+P0026,51,Male,B+,Kidney Disease,Green Valley Hospital,Aetna,Emergency,2023-05-23,2023-06-03,11,8247.48
+P0027,32,Male,A-,Asthma,Metro Health Clinic,Blue Cross,Urgent,2023-10-04,2023-10-05,1,4891.49
+P0028,55,Male,AB-,Hypertension,Green Valley Hospital,Aetna,Emergency,2023-07-25,2023-07-27,2,3240.87
+P0029,40,Male,AB-,Asthma,Sunrise Medical Institute,United Health,Elective,2023-12-23,2023-12-28,5,3816.55
+P0030,45,Female,O+,Hypertension,Apollo Wellness Center,Star Health,Emergency,2023-10-24,2023-10-30,6,2774.31
+P0031,40,Female,AB-,Diabetes,City General Hospital,Cigna,Urgent,2023-03-22,2023-03-25,3,8764.67
+P0032,77,Male,A-,Hypertension,City General Hospital,Star Health,Elective,2023-03-03,2023-03-09,6,3607.97
+P0033,49,Male,AB+,Kidney Disease,City General Hospital,Cigna,Urgent,2023-09-25,2023-10-04,9,17151.18
+P0034,34,Male,O+,Heart Disease,Apollo Wellness Center,Aetna,Emergency,2023-12-10,2023-12-25,15,13099.95
+P0035,62,Female,AB-,Diabetes,City General Hospital,Cigna,Urgent,2023-02-21,2023-02-24,3,6225.81
+P0036,31,Female,A-,Hypertension,Sunrise Medical Institute,Star Health,Elective,2023-05-26,2023-05-29,3,4471.83
+P0037,53,Female,A+,Kidney Disease,Metro Health Clinic,Cigna,Elective,2023-12-06,2023-12-11,5,17206.09
+P0038,20,Male,A-,Heart Disease,City General Hospital,Cigna,Emergency,2023-05-20,2023-05-29,9,18282.11
+P0039,30,Female,AB-,Hypertension,Sunrise Medical Institute,United Health,Emergency,2023-02-17,2023-02-22,5,6232.07
+P0040,52,Male,B+,Diabetes,Sunrise Medical Institute,United Health,Emergency,2023-08-15,2023-08-22,7,7234.0
+P0041,61,Male,B+,Diabetes,City General Hospital,Cigna,Emergency,2023-07-09,2023-07-16,7,6315.15
+P0042,52,Female,O+,Hypertension,City General Hospital,United Health,Emergency,2023-07-03,2023-07-06,3,5569.3
+P0043,48,Male,AB+,Heart Disease,Metro Health Clinic,Cigna,Urgent,2023-03-21,2023-03-29,8,22698.3
+P0044,45,Male,B+,Asthma,City General Hospital,United Health,Elective,2023-12-09,2023-12-11,2,2433.82
+P0045,27,Male,AB-,Asthma,City General Hospital,Star Health,Emergency,2023-08-24,2023-08-27,3,2568.17
+P0046,39,Male,B-,Hypertension,City General Hospital,Aetna,Elective,2023-05-23,2023-05-25,2,6851.0
+P0047,43,Female,AB+,Heart Disease,Metro Health Clinic,Cigna,Elective,2023-01-15,2023-01-21,6,22909.65
+P0048,65,Female,O+,Hypertension,Metro Health Clinic,Blue Cross,Emergency,2023-11-02,2023-11-07,5,4055.59
+P0049,55,Female,A-,Asthma,Metro Health Clinic,Aetna,Urgent,2023-04-08,2023-04-11,3,1655.35
+P0050,23,Female,B-,Diabetes,Metro Health Clinic,United Health,Elective,2023-02-05,2023-02-13,8,8524.63
+P0051,54,Female,O+,Diabetes,Sunrise Medical Institute,Aetna,Elective,2023-07-26,2023-08-03,8,4773.93
+P0052,44,Male,AB+,Hypertension,Green Valley Hospital,Star Health,Urgent,2023-10-19,2023-10-23,4,4327.34
+P0053,39,Male,B-,Heart Disease,Sunrise Medical Institute,Aetna,Urgent,2023-11-07,2023-11-22,15,13478.24
+P0054,59,Female,AB-,Asthma,Apollo Wellness Center,Star Health,Urgent,2023-02-13,2023-02-16,3,3304.08
+P0055,65,Female,O+,Diabetes,Apollo Wellness Center,Star Health,Emergency,2023-03-17,2023-03-20,3,3277.28
+P0056,63,Female,AB-,Kidney Disease,City General Hospital,Aetna,Urgent,2023-10-22,2023-10-29,7,14338.5
+P0057,37,Female,B-,Asthma,Green Valley Hospital,Star Health,Urgent,2023-12-19,2023-12-20,1,4624.31
+P0058,45,Male,B+,Asthma,Apollo Wellness Center,Cigna,Elective,2023-01-26,2023-01-31,5,2372.19
+P0059,54,Male,AB-,Asthma,Apollo Wellness Center,Cigna,Urgent,2023-11-01,2023-11-04,3,4825.14
+P0060,64,Female,AB+,Kidney Disease,Metro Health Clinic,Cigna,Elective,2023-03-23,2023-04-03,11,10850.91
+P0061,42,Male,AB-,Heart Disease,Metro Health Clinic,Star Health,Elective,2023-08-14,2023-08-20,6,20130.26
+P0062,47,Male,O-,Heart Disease,Sunrise Medical Institute,Cigna,Emergency,2023-03-12,2023-03-19,7,11931.45
+P0063,33,Male,AB+,Hypertension,City General Hospital,Aetna,Elective,2023-10-05,2023-10-10,5,4370.98
+P0064,32,Male,A+,Asthma,Green Valley Hospital,Cigna,Elective,2023-09-02,2023-09-03,1,4799.6
+P0065,62,Female,B-,Asthma,Green Valley Hospital,Aetna,Emergency,2023-05-20,2023-05-24,4,3199.75
+P0066,70,Female,B+,Heart Disease,Green Valley Hospital,Aetna,Emergency,2023-11-15,2023-11-28,13,8458.43
+P0067,48,Female,A+,Kidney Disease,Metro Health Clinic,Blue Cross,Urgent,2023-08-08,2023-08-14,6,16269.07
+P0068,65,Male,AB+,Diabetes,Sunrise Medical Institute,United Health,Emergency,2023-08-21,2023-08-26,5,5025.0
+P0069,55,Female,O+,Heart Disease,Green Valley Hospital,Blue Cross,Elective,2023-01-10,2023-01-23,13,8885.46
+P0070,40,Female,A+,Hypertension,City General Hospital,Blue Cross,Emergency,2023-04-13,2023-04-15,2,5296.01
+P0071,55,Male,A-,Hypertension,Green Valley Hospital,Cigna,Emergency,2023-08-27,2023-08-31,4,5951.04
+P0072,73,Male,A-,Kidney Disease,Metro Health Clinic,Star Health,Elective,2023-02-25,2023-03-01,4,17075.53
+P0073,49,Female,A-,Asthma,Apollo Wellness Center,Cigna,Urgent,2023-11-18,2023-11-20,2,1856.65
+P0074,73,Female,A+,Kidney Disease,City General Hospital,United Health,Urgent,2023-08-08,2023-08-17,9,5896.44
+P0075,18,Female,AB-,Diabetes,Green Valley Hospital,Blue Cross,Elective,2023-07-05,2023-07-13,8,8349.45
+P0076,62,Female,B+,Hypertension,Green Valley Hospital,Cigna,Urgent,2023-05-19,2023-05-25,6,6136.9
+P0077,51,Female,O+,Asthma,Green Valley Hospital,United Health,Emergency,2023-02-14,2023-02-17,3,4585.71
+P0078,45,Male,AB+,Asthma,Metro Health Clinic,United Health,Emergency,2023-09-11,2023-09-14,3,2136.44
+P0079,51,Male,O-,Heart Disease,Sunrise Medical Institute,United Health,Urgent,2023-12-26,2024-01-04,9,17448.45
+P0080,20,Male,AB+,Diabetes,Apollo Wellness Center,Aetna,Urgent,2023-05-04,2023-05-12,8,5856.56
+P0081,46,Female,A-,Asthma,City General Hospital,United Health,Emergency,2023-07-27,2023-07-29,2,2571.72
+P0082,55,Female,O-,Asthma,Metro Health Clinic,Aetna,Urgent,2023-10-09,2023-10-12,3,2731.34
+P0083,72,Female,O+,Heart Disease,Sunrise Medical Institute,Star Health,Emergency,2023-04-09,2023-04-19,10,10032.43
+P0084,42,Male,AB-,Hypertension,Apollo Wellness Center,United Health,Urgent,2023-10-29,2023-11-04,6,5185.56
+P0085,37,Male,B-,Hypertension,Sunrise Medical Institute,United Health,Emergency,2023-06-04,2023-06-06,2,5686.08
+P0086,42,Male,A+,Heart Disease,City General Hospital,Cigna,Elective,2023-12-24,2023-12-31,7,18843.78
+P0087,63,Female,O+,Diabetes,City General Hospital,Aetna,Elective,2023-08-14,2023-08-19,5,4106.18
+P0088,54,Male,A-,Heart Disease,Green Valley Hospital,Blue Cross,Elective,2023-09-09,2023-09-15,6,17809.36
+P0089,42,Male,O+,Hypertension,Apollo Wellness Center,Blue Cross,Emergency,2023-03-02,2023-03-08,6,5940.0
+P0090,57,Male,AB-,Kidney Disease,Green Valley Hospital,Aetna,Elective,2023-10-29,2023-11-08,10,8969.94
+P0091,51,Male,B-,Kidney Disease,City General Hospital,Star Health,Elective,2023-12-05,2023-12-10,5,7041.74
+P0092,64,Male,B+,Kidney Disease,City General Hospital,Blue Cross,Elective,2023-08-19,2023-08-30,11,8786.37
+P0093,39,Male,AB-,Heart Disease,Sunrise Medical Institute,Blue Cross,Urgent,2023-04-30,2023-05-09,9,21393.08
+P0094,45,Male,B-,Asthma,City General Hospital,Star Health,Elective,2023-03-14,2023-03-15,1,1708.73
+P0095,44,Female,O+,Kidney Disease,Metro Health Clinic,Aetna,Emergency,2023-08-28,2023-09-05,8,14096.54
+P0096,28,Female,AB-,Kidney Disease,Metro Health Clinic,Aetna,Emergency,2023-11-03,2023-11-07,4,16562.5
+P0097,54,Female,A+,Kidney Disease,Sunrise Medical Institute,Blue Cross,Emergency,2023-12-12,2023-12-16,4,17994.44
+P0098,53,Female,B+,Kidney Disease,City General Hospital,Aetna,Urgent,2023-11-30,2023-12-11,11,16908.95
+P0099,50,Male,AB-,Kidney Disease,Green Valley Hospital,Blue Cross,Elective,2023-06-28,2023-07-08,10,9333.01
+P0100,46,Male,AB+,Hypertension,Sunrise Medical Institute,Aetna,Elective,2023-12-06,2023-12-11,5,6161.05
+P0101,28,Male,O-,Asthma,City General Hospital,United Health,Elective,2023-03-01,2023-03-05,4,4527.19
+P0102,43,Male,AB+,Kidney Disease,Green Valley Hospital,Blue Cross,Emergency,2023-09-23,2023-10-02,9,13094.24
+P0103,44,Female,B-,Asthma,City General Hospital,United Health,Urgent,2023-03-09,2023-03-12,3,3033.41
+P0104,37,Female,B-,Diabetes,City General Hospital,Star Health,Elective,2023-10-10,2023-10-13,3,6313.51
+P0105,47,Male,AB-,Hypertension,City General Hospital,Blue Cross,Urgent,2023-03-20,2023-03-25,5,6696.94
+P0106,56,Female,AB+,Kidney Disease,Sunrise Medical Institute,Aetna,Elective,2023-05-05,2023-05-16,11,12166.45
+P0107,78,Female,B+,Hypertension,Metro Health Clinic,Blue Cross,Elective,2023-08-01,2023-08-05,4,6704.12
+P0108,52,Female,O+,Diabetes,Sunrise Medical Institute,Cigna,Urgent,2023-12-04,2023-12-10,6,8191.56
+P0109,53,Female,O-,Kidney Disease,Green Valley Hospital,United Health,Urgent,2023-10-06,2023-10-16,10,10919.48
+P0110,48,Female,AB+,Hypertension,Apollo Wellness Center,Star Health,Elective,2023-01-23,2023-01-27,4,5851.17
+P0111,21,Female,AB-,Asthma,Apollo Wellness Center,Blue Cross,Emergency,2023-09-15,2023-09-20,5,2661.98
+P0112,49,Male,AB-,Asthma,City General Hospital,Blue Cross,Urgent,2023-03-15,2023-03-19,4,4548.27
+P0113,50,Male,O+,Diabetes,Green Valley Hospital,United Health,Urgent,2023-12-21,2023-12-27,6,6899.02
+P0114,85,Female,O-,Kidney Disease,Green Valley Hospital,Aetna,Urgent,2023-01-19,2023-01-24,5,8052.01
+P0115,47,Female,AB+,Hypertension,City General Hospital,Blue Cross,Urgent,2023-12-27,2023-12-29,2,4496.55
+P0116,54,Female,O-,Diabetes,City General Hospital,Blue Cross,Elective,2023-07-03,2023-07-08,5,5584.12
+P0117,49,Male,B+,Kidney Disease,Green Valley Hospital,Star Health,Emergency,2023-02-10,2023-02-20,10,13056.23
+P0118,32,Male,B+,Asthma,Metro Health Clinic,Star Health,Elective,2023-11-23,2023-11-26,3,3108.5
+P0119,67,Male,B+,Asthma,Sunrise Medical Institute,Blue Cross,Elective,2023-06-26,2023-07-01,5,2547.04
+P0120,61,Female,O+,Heart Disease,Green Valley Hospital,Star Health,Elective,2023-09-05,2023-09-11,6,12032.5
+P0121,61,Female,O+,Kidney Disease,Sunrise Medical Institute,Blue Cross,Urgent,2023-07-22,2023-07-30,8,5105.27
+P0122,36,Male,O+,Kidney Disease,Green Valley Hospital,Star Health,Urgent,2023-06-30,2023-07-07,7,13276.03
+P0123,71,Female,A+,Hypertension,City General Hospital,United Health,Elective,2023-01-18,2023-01-24,6,4141.88
+P0124,28,Male,O-,Diabetes,Sunrise Medical Institute,Aetna,Emergency,2023-04-13,2023-04-17,4,7719.08
+P0125,58,Female,O+,Kidney Disease,Metro Health Clinic,Star Health,Elective,2023-09-04,2023-09-12,8,14705.27
+P0126,82,Female,A-,Diabetes,Green Valley Hospital,Star Health,Emergency,2023-12-13,2023-12-21,8,7046.44
+P0127,35,Female,A-,Kidney Disease,Sunrise Medical Institute,Aetna,Emergency,2023-05-16,2023-05-28,12,6606.65
+P0128,41,Female,AB+,Heart Disease,Metro Health Clinic,United Health,Emergency,2023-12-12,2023-12-20,8,16015.11
+P0129,51,Female,A-,Kidney Disease,Apollo Wellness Center,Aetna,Urgent,2023-06-04,2023-06-14,10,6516.79
+P0130,42,Male,AB-,Diabetes,Sunrise Medical Institute,Blue Cross,Emergency,2023-05-01,2023-05-08,7,3813.98
+P0131,26,Female,AB+,Heart Disease,Metro Health Clinic,Cigna,Urgent,2023-03-21,2023-04-01,11,19133.67
+P0132,51,Female,O+,Kidney Disease,Green Valley Hospital,Blue Cross,Urgent,2023-07-09,2023-07-16,7,10763.98
+P0133,34,Male,O-,Heart Disease,City General Hospital,Cigna,Urgent,2023-07-03,2023-07-08,5,14768.37
+P0134,57,Male,A-,Diabetes,Green Valley Hospital,Star Health,Urgent,2023-11-24,2023-12-01,7,8826.56
+P0135,36,Male,B+,Heart Disease,Apollo Wellness Center,Cigna,Emergency,2023-02-05,2023-02-18,13,11521.68
+P0136,73,Male,B+,Hypertension,Sunrise Medical Institute,Cigna,Emergency,2023-05-22,2023-05-25,3,6943.87
+P0137,38,Female,A+,Hypertension,City General Hospital,Star Health,Emergency,2023-07-03,2023-07-06,3,5149.84
+P0138,45,Male,A+,Hypertension,Sunrise Medical Institute,Star Health,Urgent,2023-08-04,2023-08-10,6,3011.42
+P0139,62,Male,O-,Asthma,Green Valley Hospital,Cigna,Urgent,2023-02-25,2023-03-01,4,3263.44
+P0140,31,Male,AB-,Kidney Disease,Sunrise Medical Institute,Blue Cross,Emergency,2023-09-03,2023-09-13,10,10541.56
+P0141,53,Male,A-,Asthma,Green Valley Hospital,Blue Cross,Elective,2023-11-08,2023-11-10,2,1729.89
+P0142,69,Female,O-,Kidney Disease,Metro Health Clinic,Aetna,Urgent,2023-09-29,2023-10-07,8,10898.3
+P0143,25,Female,B-,Diabetes,City General Hospital,Aetna,Elective,2023-04-27,2023-05-03,6,5033.59
+P0144,52,Female,A-,Asthma,Green Valley Hospital,United Health,Elective,2023-06-10,2023-06-13,3,2810.05
+P0145,53,Male,A-,Asthma,City General Hospital,Blue Cross,Emergency,2023-08-10,2023-08-11,1,4106.06
+P0146,61,Female,A+,Hypertension,Metro Health Clinic,Cigna,Urgent,2023-10-15,2023-10-19,4,5515.06
+P0147,31,Female,A+,Heart Disease,Green Valley Hospital,United Health,Urgent,2023-06-09,2023-06-19,10,9761.21
+P0148,30,Male,B-,Hypertension,Green Valley Hospital,Blue Cross,Elective,2023-10-12,2023-10-16,4,3016.98
+P0149,57,Female,AB+,Kidney Disease,Apollo Wellness Center,Cigna,Urgent,2023-11-11,2023-11-23,12,5341.3
+P0150,54,Female,O+,Diabetes,Apollo Wellness Center,United Health,Elective,2023-06-29,2023-07-02,3,4088.43
+P0151,53,Male,A-,Kidney Disease,Green Valley Hospital,Star Health,Urgent,2023-11-21,2023-11-25,4,6192.85
+P0152,55,Male,AB-,Asthma,Green Valley Hospital,United Health,Emergency,2023-07-09,2023-07-12,3,4025.59
+P0153,39,Male,B+,Diabetes,Apollo Wellness Center,Cigna,Emergency,2023-12-12,2023-12-15,3,4632.62
+P0154,53,Female,AB-,Asthma,Metro Health Clinic,Aetna,Elective,2023-04-21,2023-04-26,5,1898.36
+P0155,54,Female,AB-,Diabetes,Sunrise Medical Institute,Cigna,Urgent,2023-06-07,2023-06-10,3,4323.11
+P0156,39,Male,O+,Diabetes,Apollo Wellness Center,Star Health,Emergency,2023-05-11,2023-05-16,5,4968.73
+P0157,77,Male,B+,Asthma,Green Valley Hospital,Star Health,Elective,2023-09-30,2023-10-02,2,3250.92
+P0158,57,Female,A+,Diabetes,Green Valley Hospital,Aetna,Emergency,2023-08-24,2023-08-27,3,8172.66
+P0159,32,Female,AB+,Kidney Disease,Green Valley Hospital,United Health,Emergency,2023-07-27,2023-07-31,4,17560.6
+P0160,59,Male,O-,Kidney Disease,Green Valley Hospital,Blue Cross,Elective,2023-02-24,2023-03-03,7,10663.79
+P0161,35,Female,AB+,Kidney Disease,City General Hospital,United Health,Urgent,2023-06-23,2023-06-30,7,9329.89
+P0162,61,Male,A-,Diabetes,Metro Health Clinic,Cigna,Urgent,2023-04-10,2023-04-15,5,5106.6
+P0163,67,Male,B+,Hypertension,City General Hospital,United Health,Emergency,2023-03-30,2023-04-05,6,3187.91
+P0164,37,Male,AB-,Hypertension,Green Valley Hospital,Cigna,Urgent,2023-08-18,2023-08-24,6,5393.46
+P0165,64,Female,AB-,Heart Disease,Apollo Wellness Center,Blue Cross,Elective,2023-08-15,2023-08-30,15,13147.95
+P0166,56,Female,O-,Kidney Disease,City General Hospital,Cigna,Emergency,2023-06-08,2023-06-19,11,10874.88
+P0167,62,Male,A-,Heart Disease,Sunrise Medical Institute,Blue Cross,Urgent,2023-11-01,2023-11-14,13,14536.2
+P0168,78,Male,B-,Asthma,Metro Health Clinic,United Health,Urgent,2023-09-01,2023-09-06,5,2028.01
+P0169,46,Male,O-,Asthma,City General Hospital,Blue Cross,Urgent,2023-11-27,2023-11-29,2,1637.0
+P0170,38,Female,B+,Asthma,Metro Health Clinic,United Health,Elective,2023-05-25,2023-05-29,4,2930.69
+P0171,36,Female,O-,Kidney Disease,City General Hospital,Blue Cross,Elective,2023-02-18,2023-03-02,12,13818.93
+P0172,37,Female,B+,Heart Disease,Metro Health Clinic,United Health,Emergency,2023-10-26,2023-11-10,15,10404.28
+P0173,48,Female,B+,Heart Disease,Green Valley Hospital,Cigna,Urgent,2023-02-13,2023-02-22,9,17501.68
+P0174,55,Female,A-,Hypertension,Metro Health Clinic,Aetna,Urgent,2023-07-05,2023-07-07,2,4131.69
+P0175,54,Male,AB-,Hypertension,Sunrise Medical Institute,Star Health,Emergency,2023-03-12,2023-03-15,3,2847.24
+P0176,62,Male,A+,Kidney Disease,Metro Health Clinic,United Health,Urgent,2023-03-09,2023-03-19,10,7005.29
+P0177,50,Male,AB-,Kidney Disease,Apollo Wellness Center,Blue Cross,Elective,2023-07-06,2023-07-13,7,17604.65
+P0178,71,Female,B-,Asthma,Apollo Wellness Center,United Health,Elective,2023-04-10,2023-04-13,3,3874.07
+P0179,46,Female,AB+,Asthma,Sunrise Medical Institute,Cigna,Urgent,2023-08-03,2023-08-05,2,4359.12
+P0180,85,Male,AB-,Heart Disease,City General Hospital,United Health,Urgent,2023-02-22,2023-03-07,13,22469.82
+P0181,59,Female,O+,Diabetes,Apollo Wellness Center,Aetna,Urgent,2023-03-17,2023-03-23,6,3550.28
+P0182,37,Male,A+,Asthma,Sunrise Medical Institute,Aetna,Emergency,2023-07-22,2023-07-27,5,2808.87
+P0183,33,Female,B-,Diabetes,Sunrise Medical Institute,Blue Cross,Elective,2023-02-20,2023-02-28,8,6899.76
+P0184,57,Male,O+,Hypertension,City General Hospital,Aetna,Urgent,2023-03-13,2023-03-18,5,4518.71
+P0185,46,Male,O+,Diabetes,City General Hospital,Star Health,Emergency,2023-10-08,2023-10-16,8,6653.28
+P0186,60,Female,B-,Diabetes,Sunrise Medical Institute,United Health,Emergency,2023-01-25,2023-01-29,4,5518.95
+P0187,57,Female,AB-,Diabetes,City General Hospital,Cigna,Urgent,2023-01-09,2023-01-17,8,6092.25
+P0188,48,Male,AB+,Hypertension,Sunrise Medical Institute,Blue Cross,Urgent,2023-06-30,2023-07-03,3,5067.99
+P0189,37,Male,O-,Diabetes,Metro Health Clinic,Blue Cross,Urgent,2023-10-06,2023-10-13,7,7718.47
+P0190,27,Male,A+,Asthma,Green Valley Hospital,Aetna,Elective,2023-05-10,2023-05-11,1,2749.83
+P0191,43,Male,A-,Heart Disease,Apollo Wellness Center,Cigna,Urgent,2023-06-20,2023-06-27,7,8753.71
+P0192,62,Female,AB-,Hypertension,Green Valley Hospital,Star Health,Emergency,2023-02-02,2023-02-07,5,2666.43
+P0193,53,Male,A+,Diabetes,Apollo Wellness Center,United Health,Elective,2023-09-21,2023-09-27,6,8934.74
+P0194,31,Female,B-,Heart Disease,City General Hospital,United Health,Elective,2023-01-25,2023-02-09,15,13642.72
+P0195,52,Male,AB+,Heart Disease,Green Valley Hospital,Aetna,Elective,2023-06-23,2023-06-30,7,16435.45
+P0196,55,Female,O+,Heart Disease,Metro Health Clinic,Blue Cross,Urgent,2023-08-06,2023-08-12,6,15320.32
+P0197,36,Male,O-,Kidney Disease,Sunrise Medical Institute,Blue Cross,Emergency,2023-06-17,2023-06-25,8,8984.45
+P0198,52,Female,O-,Hypertension,Green Valley Hospital,Aetna,Emergency,2023-06-30,2023-07-06,6,6991.68
+P0199,50,Female,AB+,Diabetes,City General Hospital,United Health,Urgent,2023-12-14,2023-12-18,4,8716.74
+P0200,32,Male,A+,Kidney Disease,Green Valley Hospital,Star Health,Emergency,2023-05-01,2023-05-10,9,9707.96
+P0201,55,Male,AB-,Kidney Disease,Apollo Wellness Center,United Health,Elective,2023-08-16,2023-08-21,5,12460.98
+P0202,58,Female,O+,Asthma,Sunrise Medical Institute,Star Health,Emergency,2023-01-14,2023-01-16,2,3246.65
+P0203,66,Female,O+,Kidney Disease,City General Hospital,United Health,Urgent,2023-08-17,2023-08-24,7,17952.75
+P0204,65,Female,A-,Asthma,Apollo Wellness Center,Star Health,Emergency,2023-08-20,2023-08-22,2,4645.38
+P0205,29,Female,O-,Diabetes,Sunrise Medical Institute,Blue Cross,Urgent,2023-10-05,2023-10-10,5,8347.99
+P0206,35,Male,B-,Hypertension,Sunrise Medical Institute,Blue Cross,Emergency,2023-03-13,2023-03-16,3,6056.68
+P0207,57,Male,O-,Heart Disease,Metro Health Clinic,Aetna,Urgent,2023-03-08,2023-03-22,14,23032.19
+P0208,57,Male,AB-,Heart Disease,Green Valley Hospital,Cigna,Elective,2023-07-29,2023-08-12,14,9253.76
+P0209,57,Female,AB-,Diabetes,Green Valley Hospital,Cigna,Elective,2023-03-07,2023-03-14,7,6838.76
+P0210,85,Male,A+,Hypertension,Green Valley Hospital,Blue Cross,Urgent,2023-03-20,2023-03-24,4,3240.96
+P0211,58,Female,O+,Hypertension,Sunrise Medical Institute,Blue Cross,Elective,2023-04-11,2023-04-17,6,3735.03
+P0212,67,Female,A-,Kidney Disease,Metro Health Clinic,Cigna,Urgent,2023-03-28,2023-04-03,6,7225.61
+P0213,64,Female,A+,Kidney Disease,City General Hospital,Blue Cross,Emergency,2023-11-25,2023-12-03,8,13464.69
+P0214,59,Female,AB-,Kidney Disease,City General Hospital,Cigna,Elective,2023-11-25,2023-12-03,8,11278.28
+P0215,45,Female,A-,Heart Disease,Green Valley Hospital,Blue Cross,Emergency,2023-08-14,2023-08-25,11,16232.27
+P0216,61,Male,B+,Heart Disease,Metro Health Clinic,United Health,Urgent,2023-06-13,2023-06-23,10,24581.36
+P0217,38,Male,A-,Heart Disease,Metro Health Clinic,United Health,Emergency,2023-08-27,2023-09-02,6,12547.02
+P0218,46,Male,A+,Hypertension,City General Hospital,United Health,Elective,2023-11-12,2023-11-17,5,3617.22
+P0219,42,Male,O-,Heart Disease,Metro Health Clinic,Star Health,Emergency,2023-09-13,2023-09-26,13,15935.86
+P0220,51,Female,A-,Asthma,City General Hospital,Aetna,Urgent,2023-08-23,2023-08-25,2,2253.01
+P0221,84,Female,O+,Diabetes,City General Hospital,Aetna,Urgent,2023-12-01,2023-12-09,8,5823.52
+P0222,21,Male,B+,Diabetes,Green Valley Hospital,United Health,Urgent,2023-07-07,2023-07-13,6,5195.62
+P0223,60,Female,B-,Diabetes,Metro Health Clinic,United Health,Urgent,2023-05-28,2023-05-31,3,5318.09
+P0224,25,Female,A-,Kidney Disease,Sunrise Medical Institute,Star Health,Emergency,2023-07-21,2023-07-30,9,15333.66
+P0225,42,Female,B+,Kidney Disease,Sunrise Medical Institute,Star Health,Urgent,2023-09-18,2023-09-28,10,11501.01
+P0226,66,Male,O-,Diabetes,Apollo Wellness Center,Aetna,Urgent,2023-08-22,2023-08-26,4,6637.56
+P0227,50,Male,O-,Heart Disease,Metro Health Clinic,Star Health,Elective,2023-11-12,2023-11-21,9,18093.32
+P0228,33,Female,AB-,Kidney Disease,Sunrise Medical Institute,Blue Cross,Elective,2023-06-19,2023-06-24,5,17738.67
+P0229,39,Female,AB-,Diabetes,Metro Health Clinic,United Health,Urgent,2023-10-24,2023-10-31,7,4365.26
+P0230,60,Male,B+,Kidney Disease,Green Valley Hospital,Cigna,Urgent,2023-11-14,2023-11-24,10,6921.08
+P0231,39,Male,A-,Diabetes,Metro Health Clinic,Star Health,Emergency,2023-08-14,2023-08-19,5,5512.68
+P0232,53,Female,AB-,Hypertension,Green Valley Hospital,Blue Cross,Urgent,2023-03-12,2023-03-18,6,3433.04
+P0233,50,Female,AB+,Asthma,Metro Health Clinic,United Health,Emergency,2023-08-24,2023-08-29,5,2698.14
+P0234,40,Female,AB-,Heart Disease,Metro Health Clinic,Star Health,Emergency,2023-05-23,2023-06-05,13,13074.49
+P0235,82,Female,AB-,Heart Disease,Apollo Wellness Center,United Health,Elective,2023-06-28,2023-07-11,13,23872.91
+P0236,59,Female,AB+,Heart Disease,City General Hospital,Aetna,Elective,2023-03-16,2023-03-25,9,8715.13
+P0237,19,Male,O+,Heart Disease,Green Valley Hospital,Aetna,Emergency,2023-04-14,2023-04-27,13,12609.26
+P0238,52,Female,B-,Hypertension,City General Hospital,Star Health,Emergency,2023-12-09,2023-12-15,6,3515.52
+P0239,40,Male,AB+,Diabetes,City General Hospital,United Health,Urgent,2023-08-30,2023-09-02,3,7087.15
+P0240,62,Male,B+,Diabetes,Metro Health Clinic,Aetna,Urgent,2023-09-01,2023-09-07,6,6903.23
+P0241,38,Female,A+,Heart Disease,Sunrise Medical Institute,Blue Cross,Urgent,2023-10-21,2023-10-29,8,17097.59
+P0242,48,Male,B+,Hypertension,Green Valley Hospital,Blue Cross,Elective,2023-09-11,2023-09-14,3,6714.74
+P0243,57,Female,O+,Diabetes,City General Hospital,Cigna,Urgent,2023-02-24,2023-03-01,5,4707.37
+P0244,62,Female,AB-,Hypertension,Metro Health Clinic,United Health,Emergency,2023-02-27,2023-03-03,4,3231.22
+P0245,31,Female,A+,Heart Disease,Apollo Wellness Center,United Health,Elective,2023-10-18,2023-11-02,15,20873.81
+P0246,44,Male,AB+,Kidney Disease,Green Valley Hospital,Cigna,Elective,2023-02-14,2023-02-24,10,13700.33
+P0247,42,Male,O-,Hypertension,Green Valley Hospital,Star Health,Emergency,2023-05-14,2023-05-19,5,3559.85
+P0248,40,Female,A+,Heart Disease,Sunrise Medical Institute,United Health,Urgent,2023-07-04,2023-07-12,8,9056.11
+P0249,76,Male,B+,Asthma,Sunrise Medical Institute,Aetna,Urgent,2023-09-15,2023-09-18,3,3916.02
+P0250,56,Female,B-,Heart Disease,Metro Health Clinic,Star Health,Emergency,2023-09-02,2023-09-09,7,15734.64
+P0251,31,Female,AB-,Asthma,Metro Health Clinic,Cigna,Urgent,2023-04-22,2023-04-24,2,3881.2
+P0252,63,Male,O-,Kidney Disease,Green Valley Hospital,Blue Cross,Urgent,2023-02-27,2023-03-03,4,15774.06
+P0253,81,Male,B+,Kidney Disease,Metro Health Clinic,Star Health,Elective,2023-09-24,2023-10-05,11,6511.12
+P0254,65,Male,A-,Kidney Disease,Green Valley Hospital,Cigna,Elective,2023-01-29,2023-02-09,11,6715.28
+P0255,27,Female,A+,Asthma,Metro Health Clinic,Cigna,Elective,2023-12-11,2023-12-14,3,4031.48
+P0256,42,Female,B-,Heart Disease,City General Hospital,Cigna,Emergency,2023-01-24,2023-02-04,11,13856.99
+P0257,69,Male,A-,Kidney Disease,City General Hospital,Aetna,Emergency,2023-05-27,2023-06-06,10,7339.76
+P0258,39,Male,AB+,Asthma,Sunrise Medical Institute,Aetna,Elective,2023-07-12,2023-07-13,1,3889.56
+P0259,56,Male,B+,Heart Disease,City General Hospital,Cigna,Elective,2023-09-28,2023-10-05,7,20373.59
+P0260,61,Male,O+,Diabetes,City General Hospital,Aetna,Urgent,2023-10-06,2023-10-12,6,6191.6
+P0261,36,Male,O-,Hypertension,Green Valley Hospital,Star Health,Elective,2023-04-07,2023-04-09,2,2644.98
+P0262,49,Female,B-,Kidney Disease,City General Hospital,Star Health,Emergency,2023-02-21,2023-02-25,4,10803.73
+P0263,18,Male,AB+,Hypertension,City General Hospital,Aetna,Emergency,2023-10-04,2023-10-07,3,5894.74
+P0264,34,Male,O+,Hypertension,Metro Health Clinic,Star Health,Urgent,2023-10-22,2023-10-26,4,5098.64
+P0265,46,Female,B+,Hypertension,Sunrise Medical Institute,Cigna,Emergency,2023-07-31,2023-08-04,4,3738.19
+P0266,31,Male,AB-,Asthma,Metro Health Clinic,Blue Cross,Elective,2023-11-26,2023-11-30,4,4250.32
+P0267,74,Female,B+,Asthma,Green Valley Hospital,United Health,Elective,2023-04-05,2023-04-10,5,3157.32
+P0268,28,Male,AB-,Heart Disease,Apollo Wellness Center,Blue Cross,Urgent,2023-07-31,2023-08-11,11,17473.87
+P0269,43,Male,O+,Asthma,Apollo Wellness Center,Star Health,Elective,2023-11-28,2023-11-29,1,4727.79
+P0270,51,Female,B-,Diabetes,Metro Health Clinic,Blue Cross,Elective,2023-07-13,2023-07-21,8,6629.82
+P0271,71,Male,B-,Diabetes,Apollo Wellness Center,Aetna,Emergency,2023-06-20,2023-06-25,5,8742.12
+P0272,28,Male,A-,Hypertension,Apollo Wellness Center,Aetna,Emergency,2023-12-23,2023-12-29,6,5666.96
+P0273,67,Female,O-,Hypertension,Metro Health Clinic,United Health,Elective,2023-08-27,2023-09-02,6,5419.25
+P0274,50,Female,AB-,Heart Disease,Sunrise Medical Institute,Aetna,Emergency,2023-08-29,2023-09-08,10,23543.62
+P0275,35,Female,A+,Heart Disease,Green Valley Hospital,Cigna,Emergency,2023-03-16,2023-03-21,5,12433.16
+P0276,56,Female,B-,Heart Disease,Apollo Wellness Center,United Health,Emergency,2023-07-14,2023-07-28,14,22167.17
+P0277,52,Female,O+,Kidney Disease,Sunrise Medical Institute,Aetna,Urgent,2023-11-25,2023-12-06,11,10990.78
+P0278,40,Female,AB-,Hypertension,Apollo Wellness Center,Star Health,Urgent,2023-11-25,2023-11-27,2,4857.75
+P0279,51,Male,AB+,Diabetes,City General Hospital,Star Health,Urgent,2023-04-29,2023-05-02,3,7243.02
+P0280,44,Male,AB-,Hypertension,Metro Health Clinic,United Health,Emergency,2023-11-13,2023-11-19,6,6607.38
+P0281,51,Female,AB+,Diabetes,City General Hospital,Blue Cross,Emergency,2023-09-29,2023-10-07,8,4648.44
+P0282,59,Female,AB+,Diabetes,Metro Health Clinic,Star Health,Emergency,2023-02-19,2023-02-26,7,3893.38
+P0283,73,Male,O+,Kidney Disease,Metro Health Clinic,United Health,Elective,2023-07-23,2023-07-28,5,9849.67
+P0284,31,Female,B-,Asthma,Metro Health Clinic,Star Health,Elective,2023-12-17,2023-12-18,1,3788.08
+P0285,81,Male,AB+,Diabetes,Green Valley Hospital,Aetna,Urgent,2023-09-01,2023-09-04,3,6820.49
+P0286,20,Male,AB+,Diabetes,Green Valley Hospital,United Health,Urgent,2023-02-18,2023-02-25,7,8514.91
+P0287,47,Male,AB-,Hypertension,Metro Health Clinic,United Health,Emergency,2023-02-08,2023-02-12,4,6546.9
+P0288,58,Male,A+,Hypertension,Sunrise Medical Institute,Star Health,Urgent,2023-03-15,2023-03-20,5,6679.94
+P0289,54,Female,B-,Hypertension,Metro Health Clinic,Cigna,Elective,2023-12-13,2023-12-19,6,3992.78
+P0290,40,Male,O-,Diabetes,Metro Health Clinic,Blue Cross,Emergency,2023-08-12,2023-08-16,4,8032.05
+P0291,46,Female,AB+,Kidney Disease,Metro Health Clinic,United Health,Emergency,2023-11-21,2023-11-29,8,15186.13
+P0292,42,Female,O-,Asthma,Apollo Wellness Center,Cigna,Elective,2023-08-10,2023-08-12,2,3878.93
+P0293,41,Female,O+,Diabetes,Metro Health Clinic,Star Health,Urgent,2023-02-07,2023-02-10,3,4607.83
+P0294,62,Female,O-,Hypertension,Green Valley Hospital,United Health,Emergency,2023-02-16,2023-02-18,2,6743.32
+P0295,55,Female,A-,Heart Disease,Sunrise Medical Institute,Star Health,Emergency,2023-04-06,2023-04-17,11,15630.34
+P0296,39,Female,A-,Diabetes,City General Hospital,United Health,Urgent,2023-02-17,2023-02-24,7,6588.26
+P0297,63,Female,O+,Asthma,City General Hospital,Aetna,Elective,2023-02-13,2023-02-18,5,4668.23
+P0298,54,Male,B+,Kidney Disease,Metro Health Clinic,Aetna,Emergency,2023-03-13,2023-03-21,8,8914.71
+P0299,62,Female,B+,Hypertension,City General Hospital,Aetna,Elective,2023-08-04,2023-08-08,4,4679.04
+P0300,59,Male,B-,Heart Disease,Sunrise Medical Institute,Aetna,Urgent,2023-11-12,2023-11-20,8,15783.65
+P0301,37,Male,AB+,Heart Disease,City General Hospital,United Health,Urgent,2023-07-14,2023-07-24,10,15483.79
+P0302,41,Female,O+,Kidney Disease,Apollo Wellness Center,United Health,Urgent,2023-12-22,2023-12-29,7,11227.13
+P0303,61,Male,O+,Asthma,Sunrise Medical Institute,Aetna,Urgent,2023-05-05,2023-05-08,3,2816.19
+P0304,59,Female,B-,Heart Disease,City General Hospital,Cigna,Urgent,2023-04-03,2023-04-18,15,21049.5
+P0305,49,Male,AB-,Asthma,Apollo Wellness Center,United Health,Urgent,2023-02-05,2023-02-09,4,3855.42
+P0306,51,Male,O+,Heart Disease,Apollo Wellness Center,Star Health,Urgent,2023-08-05,2023-08-16,11,9257.41
+P0307,69,Female,AB+,Kidney Disease,Green Valley Hospital,Cigna,Emergency,2023-07-04,2023-07-16,12,12719.66
+P0308,41,Male,O-,Diabetes,Apollo Wellness Center,Star Health,Urgent,2023-11-10,2023-11-13,3,6379.32
+P0309,58,Female,A-,Heart Disease,Green Valley Hospital,Blue Cross,Emergency,2023-05-13,2023-05-21,8,16681.5
+P0310,46,Male,AB+,Asthma,Sunrise Medical Institute,Aetna,Urgent,2023-10-29,2023-11-03,5,2027.61
+P0311,46,Male,O+,Asthma,City General Hospital,Aetna,Emergency,2023-03-01,2023-03-03,2,2719.15
+P0312,66,Female,AB-,Asthma,Apollo Wellness Center,United Health,Elective,2023-02-19,2023-02-23,4,4026.98
+P0313,62,Female,O+,Heart Disease,City General Hospital,Blue Cross,Urgent,2023-02-28,2023-03-05,5,22436.06
+P0314,62,Male,B+,Hypertension,Apollo Wellness Center,Cigna,Emergency,2023-06-19,2023-06-25,6,4418.66
+P0315,69,Female,B+,Hypertension,Green Valley Hospital,Star Health,Urgent,2023-12-03,2023-12-08,5,4280.12
+P0316,50,Male,AB+,Asthma,Metro Health Clinic,Aetna,Emergency,2023-12-27,2023-12-29,2,2220.25
+P0317,60,Male,B+,Kidney Disease,City General Hospital,United Health,Elective,2023-04-11,2023-04-22,11,6481.41
+P0318,45,Female,AB+,Kidney Disease,Sunrise Medical Institute,Cigna,Elective,2023-10-28,2023-11-02,5,9523.02
+P0319,54,Female,O+,Kidney Disease,Apollo Wellness Center,Cigna,Urgent,2023-02-13,2023-02-19,6,9071.41
+P0320,48,Male,B+,Heart Disease,City General Hospital,United Health,Urgent,2023-03-14,2023-03-27,13,14603.88
+P0321,51,Male,AB+,Kidney Disease,Green Valley Hospital,Star Health,Elective,2023-11-22,2023-12-04,12,14014.63
+P0322,58,Male,AB-,Kidney Disease,Apollo Wellness Center,United Health,Emergency,2023-04-06,2023-04-15,9,15945.81
+P0323,37,Male,AB-,Heart Disease,City General Hospital,Star Health,Emergency,2023-07-16,2023-07-29,13,16592.45
+P0324,81,Female,AB+,Asthma,Green Valley Hospital,Aetna,Elective,2023-03-27,2023-03-28,1,3478.89
+P0325,34,Male,O+,Heart Disease,City General Hospital,Star Health,Urgent,2023-05-28,2023-06-04,7,21272.58
+P0326,31,Female,A-,Kidney Disease,Metro Health Clinic,Cigna,Emergency,2023-05-18,2023-05-30,12,15702.68
+P0327,67,Female,AB-,Kidney Disease,City General Hospital,Cigna,Emergency,2023-08-06,2023-08-11,5,14567.85
+P0328,61,Male,AB-,Heart Disease,City General Hospital,United Health,Elective,2023-02-14,2023-02-26,12,22709.94
+P0329,59,Male,O-,Hypertension,Apollo Wellness Center,Cigna,Urgent,2023-08-08,2023-08-11,3,5272.68
+P0330,59,Male,O-,Hypertension,City General Hospital,Cigna,Elective,2023-11-02,2023-11-08,6,3257.7
+P0331,49,Female,O+,Heart Disease,Metro Health Clinic,Cigna,Urgent,2023-02-18,2023-02-25,7,24367.12
+P0332,36,Female,B+,Diabetes,Sunrise Medical Institute,Star Health,Emergency,2023-03-16,2023-03-24,8,4932.58
+P0333,51,Male,B+,Asthma,Green Valley Hospital,Cigna,Urgent,2023-05-18,2023-05-22,4,2813.1
+P0334,39,Male,O+,Diabetes,Green Valley Hospital,United Health,Elective,2023-09-07,2023-09-12,5,6491.73
+P0335,64,Male,A-,Asthma,Sunrise Medical Institute,Cigna,Elective,2023-04-22,2023-04-26,4,4386.97
+P0336,47,Female,O+,Heart Disease,Sunrise Medical Institute,United Health,Urgent,2023-10-23,2023-10-30,7,17624.42
+P0337,37,Female,A+,Heart Disease,City General Hospital,Blue Cross,Urgent,2023-08-24,2023-08-29,5,10112.03
+P0338,45,Male,A+,Asthma,Green Valley Hospital,Aetna,Emergency,2023-12-19,2023-12-21,2,4587.52
+P0339,56,Female,A-,Hypertension,Sunrise Medical Institute,United Health,Elective,2023-02-12,2023-02-16,4,5490.29
+P0340,41,Male,O+,Diabetes,Green Valley Hospital,Star Health,Elective,2023-12-02,2023-12-05,3,7222.19
+P0341,37,Male,A-,Hypertension,Green Valley Hospital,Star Health,Urgent,2023-04-26,2023-05-02,6,5559.92
+P0342,53,Male,A-,Diabetes,Sunrise Medical Institute,Aetna,Urgent,2023-03-09,2023-03-15,6,3424.97
+P0343,53,Female,A-,Diabetes,City General Hospital,United Health,Elective,2023-06-03,2023-06-07,4,5296.33
+P0344,42,Male,A+,Hypertension,City General Hospital,Cigna,Urgent,2023-03-26,2023-03-31,5,4080.34
+P0345,42,Male,AB-,Hypertension,Green Valley Hospital,Star Health,Emergency,2023-02-21,2023-02-24,3,5886.01
+P0346,53,Female,O-,Heart Disease,Green Valley Hospital,Star Health,Emergency,2023-05-22,2023-06-06,15,9432.23
+P0347,28,Female,B-,Diabetes,Sunrise Medical Institute,Cigna,Urgent,2023-09-18,2023-09-22,4,7487.06
+P0348,28,Female,AB-,Diabetes,Apollo Wellness Center,Aetna,Emergency,2023-05-04,2023-05-10,6,6828.49
+P0349,39,Male,O-,Kidney Disease,City General Hospital,United Health,Emergency,2023-07-18,2023-07-28,10,9750.36
+P0350,46,Male,A+,Asthma,City General Hospital,Cigna,Emergency,2023-01-08,2023-01-11,3,2255.1
+P0351,54,Male,O+,Asthma,Metro Health Clinic,Cigna,Elective,2023-08-05,2023-08-09,4,1788.5
+P0352,72,Male,O+,Heart Disease,City General Hospital,Blue Cross,Urgent,2023-04-15,2023-04-22,7,17118.63
+P0353,62,Female,O+,Kidney Disease,City General Hospital,Aetna,Urgent,2023-05-03,2023-05-07,4,8178.24
+P0354,47,Female,A+,Diabetes,Green Valley Hospital,United Health,Urgent,2023-12-03,2023-12-11,8,4053.88
+P0355,49,Male,B+,Hypertension,City General Hospital,Aetna,Elective,2023-09-25,2023-10-01,6,6023.44
+P0356,34,Female,B+,Hypertension,Sunrise Medical Institute,United Health,Urgent,2023-03-02,2023-03-04,2,4007.55
+P0357,49,Female,A-,Heart Disease,Metro Health Clinic,United Health,Urgent,2023-10-23,2023-11-07,15,9310.19
+P0358,45,Female,A+,Kidney Disease,Sunrise Medical Institute,Aetna,Urgent,2023-03-27,2023-04-05,9,7045.03
+P0359,54,Male,B-,Kidney Disease,City General Hospital,Cigna,Emergency,2023-01-23,2023-01-27,4,8179.17
+P0360,37,Female,B+,Heart Disease,Green Valley Hospital,Star Health,Emergency,2023-10-11,2023-10-26,15,15129.28
+P0361,57,Female,O-,Hypertension,Green Valley Hospital,United Health,Emergency,2023-10-20,2023-10-24,4,3037.3
+P0362,72,Male,A+,Hypertension,Apollo Wellness Center,Aetna,Emergency,2023-08-27,2023-08-31,4,5980.87
+P0363,48,Female,AB-,Heart Disease,City General Hospital,Blue Cross,Elective,2023-04-13,2023-04-22,9,17584.71
+P0364,56,Female,AB-,Kidney Disease,Apollo Wellness Center,United Health,Urgent,2023-09-10,2023-09-17,7,14522.02
+P0365,60,Male,AB+,Hypertension,City General Hospital,Blue Cross,Emergency,2023-10-05,2023-10-09,4,5361.74
+P0366,43,Male,AB+,Heart Disease,City General Hospital,United Health,Emergency,2023-04-16,2023-04-29,13,24712.97
+P0367,53,Female,B+,Asthma,City General Hospital,United Health,Emergency,2023-01-23,2023-01-25,2,4640.51
+P0368,50,Female,A-,Heart Disease,Green Valley Hospital,Cigna,Emergency,2023-09-16,2023-09-23,7,18832.67
+P0369,51,Female,A+,Diabetes,Metro Health Clinic,Aetna,Urgent,2023-03-08,2023-03-12,4,4750.06
+P0370,38,Female,O-,Asthma,Sunrise Medical Institute,Aetna,Elective,2023-04-30,2023-05-01,1,4802.44
+P0371,50,Male,B+,Kidney Disease,City General Hospital,Blue Cross,Emergency,2023-08-19,2023-08-30,11,9082.43
+P0372,57,Male,B-,Kidney Disease,Sunrise Medical Institute,Aetna,Elective,2023-08-26,2023-09-03,8,16082.27
+P0373,71,Male,A+,Hypertension,Sunrise Medical Institute,Star Health,Elective,2023-03-17,2023-03-19,2,5700.21
+P0374,64,Female,A+,Asthma,Metro Health Clinic,United Health,Elective,2023-03-31,2023-04-01,1,4832.34
+P0375,82,Female,B-,Kidney Disease,Metro Health Clinic,Blue Cross,Elective,2023-02-22,2023-02-28,6,6578.89
+P0376,38,Male,B-,Hypertension,Apollo Wellness Center,Aetna,Elective,2023-12-18,2023-12-20,2,5120.46
+P0377,63,Female,A-,Diabetes,City General Hospital,Star Health,Urgent,2023-08-16,2023-08-20,4,3551.87
+P0378,52,Female,AB-,Diabetes,City General Hospital,Blue Cross,Emergency,2023-10-21,2023-10-27,6,7930.11
+P0379,82,Female,AB+,Asthma,City General Hospital,Aetna,Emergency,2023-07-01,2023-07-03,2,4679.06
+P0380,37,Female,B+,Heart Disease,Green Valley Hospital,Blue Cross,Urgent,2023-11-14,2023-11-28,14,12178.34
+P0381,37,Female,AB-,Asthma,Green Valley Hospital,Blue Cross,Emergency,2023-05-24,2023-05-28,4,1980.33
+P0382,41,Male,A+,Kidney Disease,Apollo Wellness Center,Aetna,Urgent,2023-07-03,2023-07-14,11,12078.73
+P0383,18,Female,O-,Heart Disease,Metro Health Clinic,Aetna,Elective,2023-04-03,2023-04-08,5,13420.92
+P0384,42,Male,A+,Diabetes,Sunrise Medical Institute,Aetna,Urgent,2023-07-03,2023-07-10,7,8997.63
+P0385,38,Male,B-,Diabetes,Apollo Wellness Center,United Health,Urgent,2023-01-29,2023-02-02,4,6454.15
+P0386,52,Female,B+,Heart Disease,Apollo Wellness Center,Star Health,Urgent,2023-06-12,2023-06-22,10,23537.66
+P0387,55,Male,B+,Heart Disease,Metro Health Clinic,Cigna,Emergency,2023-09-10,2023-09-23,13,13253.9
+P0388,78,Female,A+,Diabetes,City General Hospital,Star Health,Urgent,2023-04-23,2023-04-26,3,6158.69
+P0389,64,Male,B-,Heart Disease,Metro Health Clinic,Star Health,Elective,2023-04-01,2023-04-11,10,9012.45
+P0390,41,Male,A-,Kidney Disease,Apollo Wellness Center,Cigna,Elective,2023-02-07,2023-02-16,9,14158.99
+P0391,36,Female,O-,Kidney Disease,City General Hospital,United Health,Elective,2023-03-11,2023-03-17,6,14520.58
+P0392,57,Female,B+,Asthma,Sunrise Medical Institute,Cigna,Urgent,2023-11-11,2023-11-14,3,2281.33
+P0393,30,Male,O+,Asthma,Sunrise Medical Institute,Star Health,Emergency,2023-01-01,2023-01-06,5,2870.6
+P0394,77,Male,O-,Hypertension,Metro Health Clinic,Cigna,Emergency,2023-11-24,2023-11-30,6,2968.5
+P0395,67,Female,A-,Hypertension,Sunrise Medical Institute,Star Health,Elective,2023-06-13,2023-06-16,3,5362.84
+P0396,42,Male,A+,Heart Disease,Green Valley Hospital,United Health,Emergency,2023-05-08,2023-05-14,6,13958.18
+P0397,24,Male,AB+,Diabetes,City General Hospital,Aetna,Urgent,2023-08-03,2023-08-07,4,8307.31
+P0398,70,Female,AB+,Asthma,Sunrise Medical Institute,Blue Cross,Elective,2023-10-23,2023-10-25,2,2069.3
+P0399,48,Male,A+,Diabetes,Sunrise Medical Institute,United Health,Elective,2023-02-23,2023-02-26,3,5050.85
+P0400,68,Female,A-,Hypertension,City General Hospital,United Health,Urgent,2023-11-11,2023-11-16,5,5670.27
+P0401,26,Female,AB+,Hypertension,Metro Health Clinic,Star Health,Emergency,2023-02-21,2023-02-25,4,3424.98
+P0402,41,Male,O+,Asthma,Metro Health Clinic,United Health,Elective,2023-05-02,2023-05-03,1,1673.72
+P0403,50,Female,O-,Hypertension,City General Hospital,Blue Cross,Elective,2023-02-14,2023-02-18,4,6207.54
+P0404,50,Female,A+,Hypertension,City General Hospital,Star Health,Emergency,2023-11-23,2023-11-27,4,6896.76
+P0405,43,Female,AB+,Diabetes,Sunrise Medical Institute,Aetna,Elective,2023-12-05,2023-12-10,5,3546.82
+P0406,59,Female,AB+,Hypertension,Sunrise Medical Institute,United Health,Emergency,2023-08-17,2023-08-19,2,3684.83
+P0407,33,Female,O+,Heart Disease,Apollo Wellness Center,Cigna,Emergency,2023-03-19,2023-04-03,15,9643.94
+P0408,47,Female,B-,Kidney Disease,Green Valley Hospital,Cigna,Emergency,2023-07-18,2023-07-30,12,10442.22
+P0409,51,Female,AB-,Kidney Disease,Apollo Wellness Center,United Health,Emergency,2023-07-22,2023-07-26,4,11527.32
+P0410,57,Male,B+,Diabetes,Green Valley Hospital,Star Health,Emergency,2023-04-09,2023-04-13,4,3256.06
+P0411,60,Male,B+,Asthma,Apollo Wellness Center,Cigna,Elective,2023-06-13,2023-06-14,1,1804.6
+P0412,33,Female,O+,Kidney Disease,Sunrise Medical Institute,Cigna,Elective,2023-01-07,2023-01-19,12,15161.91
+P0413,26,Male,B+,Asthma,Apollo Wellness Center,Cigna,Urgent,2023-10-26,2023-10-27,1,4737.25
+P0414,69,Male,O-,Heart Disease,Metro Health Clinic,Aetna,Elective,2023-07-16,2023-07-31,15,16254.94
+P0415,54,Female,O+,Diabetes,Apollo Wellness Center,Aetna,Emergency,2023-11-13,2023-11-20,7,7084.88
+P0416,38,Female,O-,Diabetes,Green Valley Hospital,Star Health,Emergency,2023-09-01,2023-09-06,5,8382.19
+P0417,73,Male,O+,Heart Disease,Sunrise Medical Institute,United Health,Elective,2023-12-23,2024-01-07,15,9669.7
+P0418,51,Male,AB-,Hypertension,Sunrise Medical Institute,United Health,Elective,2023-08-02,2023-08-08,6,5405.0
+P0419,67,Male,AB+,Asthma,Apollo Wellness Center,Aetna,Urgent,2023-07-11,2023-07-12,1,3303.44
+P0420,51,Male,AB+,Diabetes,Sunrise Medical Institute,Star Health,Urgent,2023-10-19,2023-10-22,3,4042.42
+P0421,80,Male,A+,Diabetes,Apollo Wellness Center,Aetna,Emergency,2023-07-04,2023-07-12,8,4194.66
+P0422,76,Female,AB+,Asthma,Metro Health Clinic,Blue Cross,Urgent,2023-01-16,2023-01-18,2,2803.63
+P0423,46,Female,O-,Hypertension,Green Valley Hospital,United Health,Emergency,2023-05-13,2023-05-15,2,3782.81
+P0424,64,Female,B-,Diabetes,Apollo Wellness Center,Star Health,Urgent,2023-04-26,2023-05-04,8,4240.39
+P0425,59,Female,A+,Kidney Disease,City General Hospital,Aetna,Emergency,2023-11-28,2023-12-04,6,12814.85
+P0426,70,Male,O+,Hypertension,Sunrise Medical Institute,United Health,Elective,2023-07-12,2023-07-16,4,4565.49
+P0427,35,Male,AB+,Asthma,Sunrise Medical Institute,Cigna,Emergency,2023-01-04,2023-01-09,5,4998.0
+P0428,60,Female,O+,Kidney Disease,Metro Health Clinic,United Health,Urgent,2023-02-25,2023-03-08,11,5829.88
+P0429,65,Female,O+,Heart Disease,Sunrise Medical Institute,United Health,Emergency,2023-03-18,2023-03-31,13,21013.06
+P0430,23,Male,O-,Kidney Disease,Green Valley Hospital,Star Health,Urgent,2023-01-14,2023-01-25,11,17967.1
+P0431,32,Female,AB+,Asthma,Green Valley Hospital,Blue Cross,Urgent,2023-12-29,2024-01-03,5,4356.05
+P0432,19,Female,AB-,Hypertension,Metro Health Clinic,United Health,Urgent,2023-06-03,2023-06-06,3,6282.87
+P0433,45,Male,AB-,Heart Disease,City General Hospital,Star Health,Urgent,2023-05-13,2023-05-26,13,20969.61
+P0434,60,Male,B-,Heart Disease,City General Hospital,United Health,Emergency,2023-06-07,2023-06-18,11,21397.54
+P0435,72,Female,O+,Heart Disease,Sunrise Medical Institute,Aetna,Emergency,2023-08-29,2023-09-03,5,22728.69
+P0436,51,Male,A-,Asthma,Apollo Wellness Center,Aetna,Urgent,2023-06-02,2023-06-06,4,1689.22
+P0437,74,Male,O-,Hypertension,Apollo Wellness Center,Aetna,Urgent,2023-08-23,2023-08-26,3,3923.73
+P0438,29,Male,O-,Diabetes,Green Valley Hospital,Star Health,Elective,2023-11-21,2023-11-24,3,3028.28
+P0439,24,Female,B+,Hypertension,Apollo Wellness Center,Aetna,Emergency,2023-03-08,2023-03-14,6,4451.7
+P0440,49,Female,AB-,Asthma,Green Valley Hospital,Aetna,Emergency,2023-01-20,2023-01-25,5,2197.95
+P0441,55,Female,B-,Diabetes,Sunrise Medical Institute,Blue Cross,Urgent,2023-01-03,2023-01-11,8,7401.62
+P0442,49,Male,B+,Heart Disease,Sunrise Medical Institute,Blue Cross,Elective,2023-09-15,2023-09-29,14,13203.96
+P0443,18,Male,O+,Diabetes,Sunrise Medical Institute,Aetna,Urgent,2023-09-24,2023-10-01,7,6144.71
+P0444,48,Female,AB-,Hypertension,Sunrise Medical Institute,United Health,Emergency,2023-03-26,2023-03-31,5,2586.06
+P0445,30,Male,A+,Hypertension,Apollo Wellness Center,Cigna,Urgent,2023-03-28,2023-03-30,2,4149.66
+P0446,60,Male,A+,Asthma,Sunrise Medical Institute,Cigna,Emergency,2023-12-05,2023-12-06,1,3787.49
+P0447,55,Male,AB+,Diabetes,City General Hospital,Aetna,Elective,2023-03-05,2023-03-12,7,4516.43
+P0448,35,Male,O+,Hypertension,City General Hospital,Aetna,Urgent,2023-02-21,2023-02-27,6,3714.9
+P0449,42,Male,A-,Asthma,City General Hospital,United Health,Emergency,2023-02-24,2023-02-28,4,2195.26
+P0450,34,Male,B-,Heart Disease,Metro Health Clinic,United Health,Urgent,2023-07-29,2023-08-07,9,10726.35
+P0451,49,Female,O-,Hypertension,Green Valley Hospital,Star Health,Emergency,2023-01-07,2023-01-09,2,6580.96
+P0452,64,Female,A-,Hypertension,City General Hospital,Blue Cross,Elective,2023-11-26,2023-11-29,3,4555.38
+P0453,35,Female,A+,Heart Disease,Green Valley Hospital,Blue Cross,Emergency,2023-01-21,2023-01-30,9,14123.65
+P0454,57,Female,A-,Asthma,City General Hospital,Blue Cross,Emergency,2023-03-12,2023-03-14,2,2650.31
+P0455,42,Female,A-,Kidney Disease,Sunrise Medical Institute,United Health,Elective,2023-04-04,2023-04-09,5,10210.11
+P0456,38,Female,AB-,Heart Disease,Green Valley Hospital,Aetna,Urgent,2023-03-27,2023-04-02,6,10252.7
+P0457,48,Male,AB+,Hypertension,City General Hospital,Cigna,Elective,2023-10-19,2023-10-24,5,3315.67
+P0458,34,Female,A+,Heart Disease,Metro Health Clinic,Star Health,Elective,2023-09-07,2023-09-13,6,23089.1
+P0459,41,Female,O+,Diabetes,City General Hospital,United Health,Emergency,2023-12-27,2024-01-04,8,6148.91
+P0460,32,Male,A-,Heart Disease,Metro Health Clinic,Aetna,Urgent,2023-05-08,2023-05-20,12,13877.74
+P0461,79,Female,A+,Hypertension,Metro Health Clinic,Blue Cross,Urgent,2023-03-22,2023-03-28,6,6319.81
+P0462,50,Female,AB-,Hypertension,City General Hospital,United Health,Emergency,2023-06-19,2023-06-23,4,2726.58
+P0463,39,Male,AB+,Kidney Disease,Green Valley Hospital,Star Health,Emergency,2023-08-24,2023-09-04,11,15416.4
+P0464,53,Female,AB-,Diabetes,Green Valley Hospital,United Health,Emergency,2023-09-12,2023-09-20,8,6920.24
+P0465,48,Male,A+,Asthma,Green Valley Hospital,Cigna,Urgent,2023-01-01,2023-01-02,1,4271.24
+P0466,46,Female,B-,Kidney Disease,Metro Health Clinic,Aetna,Elective,2023-07-06,2023-07-10,4,15615.65
+P0467,59,Female,AB-,Heart Disease,Metro Health Clinic,United Health,Urgent,2023-08-20,2023-08-26,6,9656.43
+P0468,61,Male,O-,Diabetes,Sunrise Medical Institute,United Health,Urgent,2023-09-25,2023-09-30,5,7212.58
+P0469,42,Male,B+,Hypertension,Green Valley Hospital,Aetna,Emergency,2023-05-11,2023-05-17,6,3381.65
+P0470,41,Male,AB-,Asthma,Apollo Wellness Center,Star Health,Urgent,2023-06-23,2023-06-24,1,4150.02
+P0471,45,Male,AB-,Kidney Disease,City General Hospital,Aetna,Urgent,2023-10-29,2023-11-10,12,6750.27
+P0472,18,Female,A+,Diabetes,Metro Health Clinic,Cigna,Elective,2023-10-27,2023-11-02,6,8546.23
+P0473,27,Male,B+,Kidney Disease,Apollo Wellness Center,Blue Cross,Elective,2023-12-03,2023-12-12,9,11553.43
+P0474,70,Female,B-,Asthma,Metro Health Clinic,United Health,Elective,2023-06-25,2023-06-28,3,3084.96
+P0475,74,Male,O+,Hypertension,Green Valley Hospital,Cigna,Elective,2023-12-31,2024-01-06,6,5346.62
+P0476,46,Male,O+,Hypertension,Metro Health Clinic,United Health,Urgent,2023-03-09,2023-03-12,3,4767.52
+P0477,58,Female,AB-,Diabetes,Sunrise Medical Institute,Cigna,Urgent,2023-12-08,2023-12-16,8,5504.87
+P0478,54,Female,A-,Asthma,City General Hospital,Blue Cross,Elective,2023-03-16,2023-03-17,1,3845.89
+P0479,85,Male,O+,Heart Disease,Apollo Wellness Center,United Health,Emergency,2023-02-01,2023-02-10,9,11468.02
+P0480,66,Male,A-,Heart Disease,Green Valley Hospital,Cigna,Urgent,2023-10-15,2023-10-23,8,20621.02
+P0481,48,Female,O+,Hypertension,Metro Health Clinic,Blue Cross,Elective,2023-07-18,2023-07-23,5,6805.16
+P0482,35,Female,A+,Kidney Disease,City General Hospital,United Health,Emergency,2023-11-14,2023-11-25,11,15789.79
+P0483,25,Female,B-,Kidney Disease,Metro Health Clinic,Star Health,Elective,2023-08-18,2023-08-24,6,17784.89
+P0484,53,Male,A-,Hypertension,Apollo Wellness Center,Aetna,Emergency,2023-08-08,2023-08-12,4,5004.69
+P0485,38,Male,O+,Hypertension,Metro Health Clinic,Blue Cross,Elective,2023-08-27,2023-08-30,3,2679.73
+P0486,28,Female,O+,Kidney Disease,City General Hospital,Aetna,Urgent,2023-10-09,2023-10-18,9,5947.45
+P0487,40,Female,B+,Kidney Disease,Apollo Wellness Center,Cigna,Emergency,2023-09-16,2023-09-22,6,10407.11
+P0488,33,Female,B-,Diabetes,Sunrise Medical Institute,Star Health,Urgent,2023-06-19,2023-06-24,5,5164.79
+P0489,75,Male,AB-,Kidney Disease,Metro Health Clinic,Cigna,Urgent,2023-01-05,2023-01-10,5,13696.2
+P0490,63,Female,B-,Hypertension,Metro Health Clinic,Blue Cross,Urgent,2023-06-14,2023-06-19,5,6621.7
+P0491,49,Male,O+,Asthma,Sunrise Medical Institute,Blue Cross,Urgent,2023-07-11,2023-07-16,5,4309.86
+P0492,72,Female,O+,Asthma,City General Hospital,Star Health,Elective,2023-09-21,2023-09-22,1,4818.74
+P0493,51,Male,A+,Kidney Disease,Metro Health Clinic,Blue Cross,Emergency,2023-12-10,2023-12-17,7,16244.36
+P0494,37,Female,AB+,Diabetes,Apollo Wellness Center,Blue Cross,Urgent,2023-12-18,2023-12-22,4,3142.52
+P0495,72,Female,A-,Diabetes,City General Hospital,Blue Cross,Emergency,2023-05-09,2023-05-16,7,3422.65
+P0496,58,Male,AB+,Heart Disease,Green Valley Hospital,Aetna,Urgent,2023-07-27,2023-08-07,11,13378.87
+P0497,34,Female,A+,Diabetes,Metro Health Clinic,Cigna,Emergency,2023-10-27,2023-10-30,3,7205.29
+P0498,47,Male,A-,Heart Disease,Metro Health Clinic,United Health,Urgent,2023-06-04,2023-06-18,14,9470.59
+P0499,36,Female,A+,Asthma,Green Valley Hospital,Aetna,Emergency,2023-10-01,2023-10-03,2,1977.34
+P0500,29,Female,B+,Kidney Disease,Sunrise Medical Institute,United Health,Urgent,2023-11-28,2023-12-07,9,17446.09

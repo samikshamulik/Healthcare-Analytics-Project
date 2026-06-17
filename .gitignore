@@ -1,0 +1,28 @@
+# Python cache files - auto-generated, not needed on GitHub
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment folders
+venv/
+env/
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI temp files
+*.pbix.bak
+
+# Large data files (if dataset becomes very large)
+# data/*.csv   ← keep this commented out — we WANT to upload the CSV
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.kiro
